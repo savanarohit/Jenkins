@@ -107,7 +107,7 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
 ## Sample Jenkins Desciptive Pipelines
 
-1. Pipeline
+1. <a href="https://github.com/savanarohit/Jenkins/blob/main/Jenkins%20Descriptive%20Pipeline/1_pipeline/Jenkinsfile> Pipeline </a>
 2. Github SCM
 3. Github Poll SCM
 4. Multibranch 
