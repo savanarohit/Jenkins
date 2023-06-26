@@ -1,5 +1,9 @@
 # Learn Jenkins from basic to advance
 
+## What is Jenkins
+
+Jenkins – an open source automation server which enables developers around the world to reliably build, test, and deploy their software
+
 ## Jenkins Installation on AWS EC2 Ubuntu 22.04 Instance
 
 ## Install Java
