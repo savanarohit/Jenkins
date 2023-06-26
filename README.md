@@ -1,6 +1,6 @@
 # Learn Jenkins from basic to advance
 
-1. Jenkins Installation on AWS EC2 Ubuntu 22.04 Instance
+## Jenkins Installation on AWS EC2 Ubuntu 22.04 Instance
 
 ## Install Java
 
@@ -63,8 +63,7 @@ Type https://localhost:8080 in your fav browser if any exception accept it and p
 
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
-
-2. Jenkins plugins for DevOps
+## Jenkins plugins for DevOps
 
 1. Kubernetes
 2. Swarm
