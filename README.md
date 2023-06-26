@@ -96,6 +96,6 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 1. Build 
 2. Test: Integration & Quality
 3. Test: Functional
-4. Test: Loand & Security
+4. Test: Load & Security
 5. Approval
 6. Deploy: Prod
