@@ -99,3 +99,12 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 4. Test: Load & Security
 5. Approval
 6. Deploy: Prod
+
+
+## Sample Jenkins Desciptive Pipelines
+
+1. Pipeline
+2. Github SCM
+3. Github Poll SCM
+4. Multibranch 
+5. Parameterized 
