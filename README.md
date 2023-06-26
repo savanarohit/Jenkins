@@ -1,2 +1,2 @@
 # Jenkins
-Learn Jenkins from basic to Advance
+Learn Jenkins from basic to advance
