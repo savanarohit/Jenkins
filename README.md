@@ -1,4 +1,4 @@
-# Learn Jenkins from basic to advance
+# Jenkins Documentation
 
 ## What is Jenkins
 
@@ -20,7 +20,7 @@ openjdk version "11.0.12" 2021-07-20
 OpenJDK Runtime Environment (build 11.0.12+7-post-Debian-2)
 OpenJDK 64-Bit Server VM (build 11.0.12+7-post-Debian-2, mixed mode, sharing)
 
-## Install Jennkins
+## Install Jenkins
 
 curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee \
 /usr/share/keyrings/jenkins-keyring.asc > /dev/null
