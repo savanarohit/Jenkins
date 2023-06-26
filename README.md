@@ -2,7 +2,7 @@
 
 ## What is Jenkins
 
-Jenkins – an open source automation server which enables developers around the world to reliably build, test, and deploy their software
+Jenkins – an open-source automation server that enables developers around the world to reliably build, test, and deploy their software
 
 ## Jenkins Installation on AWS EC2 Ubuntu 22.04 Instance
 
@@ -12,7 +12,7 @@ sudo apt update
 
 sudo apt install openjdk-11-jre
 
-## Check java version
+## Check the Java version
 
 java -version
 
@@ -61,9 +61,9 @@ firewall-cmd --reload
 
 ## Login into Jenkins Web Console
 
-Type https://localhost:8080 in your fav browser if any exception accept it and proceed
+Type https://localhost:8080 in your fav browser if any exceptions accept them and proceed
 
-## Unlock Jenkins Password using below command
+## Unlock Jenkins Password using the below command
 
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
