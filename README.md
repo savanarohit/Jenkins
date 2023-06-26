@@ -91,3 +91,11 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 24. bootstrapped-multi-test-results-report
 25. JUnit
 
+## Sample Jenkins Pipeline stages
+
+Build
+Test: Integration & Quality
+Test: Functional
+Test: Loand & Security
+Approval
+Deploy: Prod
