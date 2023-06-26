@@ -93,9 +93,9 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
 ## Sample Jenkins Pipeline stages
 
-Build
-Test: Integration & Quality
-Test: Functional
-Test: Loand & Security
-Approval
-Deploy: Prod
+1. Build 
+2. Test: Integration & Quality
+3. Test: Functional
+4. Test: Loand & Security
+5. Approval
+6. Deploy: Prod
