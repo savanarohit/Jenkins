@@ -107,8 +107,8 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
 ## Jenkins Descriptive Pipelines
 
-1. [Pipeline] (https://github.com/savanarohit/Jenkins/blob/main/Jenkins%20Descriptive%20Pipeline/1_pipeline/Jenkinsfile)
-2. [Github] (https://github.com/savanarohit/Jenkins/blob/main/Jenkins%20Descriptive%20Pipeline/2_github/Jenkinsfile)
-3. [Github Poll SCM] (https://github.com/savanarohit/Jenkins/blob/main/Jenkins%20Descriptive%20Pipeline/3_github_poll_scm/Jenkinsfile)
-4. [MultiBranch] (https://github.com/savanarohit/Jenkins/blob/main/Jenkins%20Descriptive%20Pipeline/4_multibranch/Jenkinsfile)
+1. Pipeline <https://github.com/savanarohit/Jenkins/blob/main/Jenkins%20Descriptive%20Pipeline/1_pipeline/Jenkinsfil>
+2. Github  <https://github.com/savanarohit/Jenkins/blob/main/Jenkins%20Descriptive%20Pipeline/2_github/Jenkinsfile>
+3. Github Poll SCM <https://github.com/savanarohit/Jenkins/blob/main/Jenkins%20Descriptive%20Pipeline/3_github_poll_scm/Jenkinsfile>
+4. MultiBranch <https://github.com/savanarohit/Jenkins/blob/main/Jenkins%20Descriptive%20Pipeline/4_multibranch/Jenkinsfile>
 
