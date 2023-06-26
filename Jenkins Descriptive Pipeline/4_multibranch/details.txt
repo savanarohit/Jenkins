@@ -1,2 +1,0 @@
-# Create a new branch in the github repo.
-# Create a multibranch pipeline in jenkins which will periodically scan for changes in all branches of the repo.
