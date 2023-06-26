@@ -105,10 +105,10 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 6. Deploy: Prod
 
 
-## Sample Jenkins Desciptive Pipelines
+## Jenkins Descriptive Pipelines
 
-1. <a href="https://github.com/savanarohit/Jenkins/blob/main/Jenkins%20Descriptive%20Pipeline/1_pipeline/Jenkinsfile"> Pipeline </a>
-2. <a href="https://github.com/savanarohit/Jenkins/blob/main/Jenkins%20Descriptive%20Pipeline/2_github/Jenkinsfile"> Github SCM </a>
-3. <a href="https://github.com/savanarohit/Jenkins/blob/main/Jenkins%20Descriptive%20Pipeline/3_github_poll_scm/Jenkinsfile"> Github Poll SCM </a>
-4. <a href="https://github.com/savanarohit/Jenkins/blob/main/Jenkins%20Descriptive%20Pipeline/4_multibranch/Jenkinsfile"> Multibranch </a>
-5. Parameterized 
+1. [Pipeline] (https://github.com/savanarohit/Jenkins/blob/main/Jenkins%20Descriptive%20Pipeline/1_pipeline/Jenkinsfile)
+2. [Github] (https://github.com/savanarohit/Jenkins/blob/main/Jenkins%20Descriptive%20Pipeline/2_github/Jenkinsfile)
+3. [Github Poll SCM] (https://github.com/savanarohit/Jenkins/blob/main/Jenkins%20Descriptive%20Pipeline/3_github_poll_scm/Jenkinsfile)
+4. [MultiBranch] (https://github.com/savanarohit/Jenkins/blob/main/Jenkins%20Descriptive%20Pipeline/4_multibranch/Jenkinsfile)
+
