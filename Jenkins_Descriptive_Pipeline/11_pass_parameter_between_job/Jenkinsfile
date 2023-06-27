@@ -1,0 +1,11 @@
+pipeline {
+    agent any
+
+    stages {
+        stage("Clean Up"){
+             steps {
+                build job: 'booleanParam Pipeline' , parameters: [[$class:'BooleanParameterValue',name:'myBoolean',value: true]]
+            }    
+        }
+    }
+}

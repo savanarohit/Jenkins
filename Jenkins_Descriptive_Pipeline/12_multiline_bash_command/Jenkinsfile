@@ -1,0 +1,15 @@
+pipeline {
+    agent any
+
+    stages {
+        stage("Multiline Bash Command"){
+             steps {
+                sh """
+                echo "This is first line bash command"
+                echo "This is second line bash command"
+                echo "This is third line bash command"
+                """
+            }    
+        }
+    }
+}
