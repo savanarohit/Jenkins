@@ -100,11 +100,17 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 5. Approval
 6. Deploy: Prod
 
-
 ## Jenkins Descriptive Pipelines
 
 1. [Pipeline](https://github.com/savanarohit/Jenkins/blob/main/Jenkins%20Descriptive%20Pipeline/1_pipeline/Jenkinsfile)
 2. [Github](https://github.com/savanarohit/Jenkins/blob/main/Jenkins%20Descriptive%20Pipeline/2_github/Jenkinsfile)
 3. [Github Poll SCM](https://github.com/savanarohit/Jenkins/blob/main/Jenkins%20Descriptive%20Pipeline/3_github_poll_scm/Jenkinsfile)
 4. [MultiBranch](https://github.com/savanarohit/Jenkins/blob/main/Jenkins%20Descriptive%20Pipeline/4_multibranch/Jenkinsfile)
-
+5. [Parameterized](https://github.com/savanarohit/Jenkins/tree/main/Jenkins_Descriptive_Pipeline/5_parameterized)
+6. [Variable](https://github.com/savanarohit/Jenkins/tree/main/Jenkins_Descriptive_Pipeline/6_variable)
+7. [Multiple_Jenkinsfile](https://github.com/savanarohit/Jenkins/tree/main/Jenkins_Descriptive_Pipeline/7_multiple_jenkinsfile)
+8. [Delay](https://github.com/savanarohit/Jenkins/tree/main/Jenkins_Descriptive_Pipeline/8_delay)
+9. [Groovy](https://github.com/savanarohit/Jenkins/tree/main/Jenkins_Descriptive_Pipeline/9_groovy)
+10. [Job_from_job](https://github.com/savanarohit/Jenkins/tree/main/Jenkins_Descriptive_Pipeline/10_job_from_job)
+11. [Pass_Parameter_between_Job](https://github.com/savanarohit/Jenkins/tree/main/Jenkins_Descriptive_Pipeline/11_pass_parameter_between_job)
+12. [Multiple_Bash_Command](https://github.com/savanarohit/Jenkins/tree/main/Jenkins_Descriptive_Pipeline/12_multiline_bash_command)
