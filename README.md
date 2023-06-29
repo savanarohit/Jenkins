@@ -8,9 +8,7 @@ Jenkins – an open-source automation server that enables developers around the 
 
 ## Install Java
 
-sudo apt update
-
-sudo apt install openjdk-11-jre
+sudo apt update && sudo apt install openjdk-11-jre
 
 ## Check the Java version
 
@@ -29,9 +27,7 @@ echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
 https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
 /etc/apt/sources.list.d/jenkins.list > /dev/null
 
-sudo apt-get update
-
-sudo apt-get install jenkins
+sudo apt-get update && sudo apt-get install jenkins
 
 ## Start Jenkins 
 
@@ -95,7 +91,7 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 24. bootstrapped-multi-test-results-report
 25. JUnit
 
-## Sample Jenkins Pipeline stages
+## Sample Jenkins Pipeline Stages
 
 1. Build 
 2. Test: Integration & Quality
