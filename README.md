@@ -90,6 +90,7 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 23. Test Results Analyzer
 24. bootstrapped-multi-test-results-report
 25. JUnit
+26. Publish Over SSH
 
 ## Sample Jenkins Pipeline Stages
 
