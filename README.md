@@ -2,7 +2,7 @@
 
 ### What is Jenkins
 
-Jenkins – an open-source automation server that enables developers around the world to reliably build, test, and deploy their software
+    Jenkins – an open-source automation server that enables developers around the world to reliably build, test, and deploy their software
 
 ### Jenkins Installation on AWS EC2 Ubuntu 22.04 Instance
 
@@ -63,7 +63,7 @@ Unlock Jenkins Password using the below command
 
     sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
-### Jenkins plugins for DevOps
+### Jenkins plugins (DevOps)
 
 1. Kubernetes
 2. Swarm
@@ -92,7 +92,7 @@ Unlock Jenkins Password using the below command
 25. JUnit
 26. Publish Over SSH
 
-### Sample Jenkins Pipeline Stages
+### Jenkins Pipeline Stages
 
 1. Build 
 2. Test: Integration & Quality
