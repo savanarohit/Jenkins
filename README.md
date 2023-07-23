@@ -4,7 +4,14 @@
 
 An open-source automation server that enables developers around the world to reliably build, test, and deploy their software
 
-### Jenkins Installation on AWS EC2 Ubuntu 22.04 Instance
+### Jenkins Installation
+
+    Cloud           - AWS
+    Instance Type   - t2.medium
+    CPU Cores       - 2
+    Memory          - 4 GB
+    Storage         - 10 GB
+    OS              - Ubuntu 22.02 
 
 Install Java
 
