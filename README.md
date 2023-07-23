@@ -1,16 +1,16 @@
-# Jenkins Documentation
+## Jenkins Documentation
 
-## What is Jenkins
+### What is Jenkins
 
 Jenkins – an open-source automation server that enables developers around the world to reliably build, test, and deploy their software
 
-## Jenkins Installation on AWS EC2 Ubuntu 22.04 Instance
+### Jenkins Installation on AWS EC2 Ubuntu 22.04 Instance
 
-## Install Java
+Install Java
 
 sudo apt update && sudo apt install openjdk-11-jre
 
-## Check the Java version
+Check the Java version
 
 java -version
 
@@ -18,7 +18,7 @@ openjdk version "11.0.12" 2021-07-20
 OpenJDK Runtime Environment (build 11.0.12+7-post-Debian-2)
 OpenJDK 64-Bit Server VM (build 11.0.12+7-post-Debian-2, mixed mode, sharing)
 
-## Install Jenkins
+Install Jenkins
 
 curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee \
 /usr/share/keyrings/jenkins-keyring.asc > /dev/null
@@ -29,19 +29,19 @@ https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
 
 sudo apt-get update && sudo apt-get install jenkins
 
-## Start Jenkins 
+Start Jenkins 
 
 sudo systemctl start jenkins
 
-## Check Status of Jenkins
+Check Status of Jenkins
 
 sudo systemctl status jenkins
 
-## Enable Jenkins service to start at boot time
+Enable Jenkins service to start at boot time
 
 sudo systemctl enable jenkins
 
-## Firewall Exception
+Firewall Exception
 
 YOURPORT=8080
 PERM="--permanent"
@@ -55,15 +55,15 @@ firewall-cmd $PERM --add-service=jenkins
 firewall-cmd --zone=public --add-service=http --permanent
 firewall-cmd --reload
 
-## Login into Jenkins Web Console
+Login into Jenkins Web Console
 
 Type https://localhost:8080 in your fav browser if any exceptions accept them and proceed
 
-## Unlock Jenkins Password using the below command
+Unlock Jenkins Password using the below command
 
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
-## Jenkins plugins for DevOps
+### Jenkins plugins for DevOps
 
 1. Kubernetes
 2. Swarm
@@ -92,7 +92,7 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 25. JUnit
 26. Publish Over SSH
 
-## Sample Jenkins Pipeline Stages
+### Sample Jenkins Pipeline Stages
 
 1. Build 
 2. Test: Integration & Quality
@@ -101,7 +101,7 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 5. Approval
 6. Deploy: Prod
 
-## Jenkins Descriptive Pipelines
+### Jenkins Descriptive Pipelines
 
 1. [Pipeline](https://github.com/savanarohit/Jenkins/blob/main/Jenkins_Descriptive_Pipeline/1_pipeline/Jenkinsfile)
 2. [Github](https://github.com/savanarohit/Jenkins/blob/main/Jenkins_Descriptive_Pipeline/2_github/Jenkinsfile)
