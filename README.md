@@ -8,60 +8,60 @@ Jenkins – an open-source automation server that enables developers around the 
 
 Install Java
 
-sudo apt update && sudo apt install openjdk-11-jre
+    sudo apt update && sudo apt install openjdk-11-jre
 
 Check the Java version
 
-java -version
+    java -version
 
-openjdk version "11.0.12" 2021-07-20
-OpenJDK Runtime Environment (build 11.0.12+7-post-Debian-2)
-OpenJDK 64-Bit Server VM (build 11.0.12+7-post-Debian-2, mixed mode, sharing)
+    openjdk version "11.0.12" 2021-07-20
+    OpenJDK Runtime Environment (build 11.0.12+7-post-Debian-2)
+    OpenJDK 64-Bit Server VM (build 11.0.12+7-post-Debian-2, mixed mode, sharing)
 
 Install Jenkins
 
-curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee \
-/usr/share/keyrings/jenkins-keyring.asc > /dev/null
+    curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee \
+    /usr/share/keyrings/jenkins-keyring.asc > /dev/null
 
-echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
-https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
-/etc/apt/sources.list.d/jenkins.list > /dev/null
+    echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
+    https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
+    /etc/apt/sources.list.d/jenkins.list > /dev/null
 
-sudo apt-get update && sudo apt-get install jenkins
+    sudo apt-get update && sudo apt-get install jenkins
 
 Start Jenkins 
 
-sudo systemctl start jenkins
+    sudo systemctl start jenkins
 
 Check Status of Jenkins
 
-sudo systemctl status jenkins
+    sudo systemctl status jenkins
 
 Enable Jenkins service to start at boot time
 
-sudo systemctl enable jenkins
+    sudo systemctl enable jenkins
 
 Firewall Exception
 
-YOURPORT=8080
-PERM="--permanent"
-SERV="$PERM --service=jenkins"
+    YOURPORT=8080
+    PERM="--permanent"
+    SERV="$PERM --service=jenkins"
 
-firewall-cmd $PERM --new-service=jenkins
-firewall-cmd $SERV --set-short="Jenkins ports"
-firewall-cmd $SERV --set-description="Jenkins port exceptions"
-firewall-cmd $SERV --add-port=$YOURPORT/tcp
-firewall-cmd $PERM --add-service=jenkins
-firewall-cmd --zone=public --add-service=http --permanent
-firewall-cmd --reload
+    firewall-cmd $PERM --new-service=jenkins
+    firewall-cmd $SERV --set-short="Jenkins ports"
+    firewall-cmd $SERV --set-description="Jenkins port exceptions"
+    firewall-cmd $SERV --add-port=$YOURPORT/tcp
+    firewall-cmd $PERM --add-service=jenkins
+    firewall-cmd --zone=public --add-service=http --permanent
+    firewall-cmd --reload
 
 Login into Jenkins Web Console
 
-Type https://localhost:8080 in your fav browser if any exceptions accept them and proceed
+    Type https://localhost:8080 in your Browser if any exceptions accept them and proceed
 
 Unlock Jenkins Password using the below command
 
-sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+    sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
 ### Jenkins plugins for DevOps
 
